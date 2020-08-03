@@ -1,0 +1,146 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Karla', sans-serif;
+}
+
+p {
+    margin: 0;
+}
+
+body {
+    background-color: hsl(204, 43%, 93%);
+    padding: 10% 30%;
+}
+
+.container {
+    display: flex;
+    height: 100%;
+    min-width: 250px;
+    flex-flow: column wrap;
+    overflow: hidden;
+}
+
+.item-1 {
+    background-color: white;
+    border-radius: 10px 10px 0px 0px;
+    padding: 30px;
+}
+
+#join {
+    color: hsl(179, 62%, 43%);
+    font-weight: 700;
+    font-size: 22px;
+    margin-bottom: 30px;
+}
+
+#thirty {
+    color: hsl(71, 73%, 54%);
+    font-weight: 700;
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+#gain {
+    color: hsl(218, 22%, 67%);;
+    line-height: 1.6;
+    font-size: 14px;
+}
+
+.item-2 {
+    display: flex;
+    min-height: 240px;
+}
+
+.item-2-1 {
+    background-color: hsl(179, 62%, 43%);
+    border-bottom-left-radius: 10px;
+    padding: 40px;
+    flex-grow: 1;
+}
+
+#monthly {
+    color: rgb(226,254,255); 
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+#dollar {
+    color: rgb(226,254,255); 
+    font-size: 28px; 
+    font-weight: 700;
+}
+
+.per {
+    margin: -24px 0px 18px 62px ; 
+    color: rgb(113,216,217); 
+    font-size: 14px;
+}
+
+#full {
+    font-size: 14px;
+    color: rgb(190,247,247);
+}
+
+#signup {
+    background-color: hsl(71, 73%, 54%);
+    text-align: center;
+    line-height: 45px;
+    border-radius: 6px;
+    box-shadow: 0px 6px 10px 0px rgba(0,0,0,0.2);
+    margin-top: 22px;
+    color: rgb(226,254,255);
+    font-weight: 700;
+}
+
+.item-2-2 {
+    background-color: rgb(74,190,189);
+    border-bottom-right-radius: 10px;
+    padding: 40px;
+    flex-grow: 1;
+}
+
+#why{
+    color: rgb(226,254,255); 
+    font-weight: 700;
+}
+
+#tutorials {
+    color: rgb(158,235,233); 
+    line-height: 1.6;
+    font-size: 12px;
+    margin-top: 10px; 
+    font-weight: 700;
+}
+
+.attribution { 
+    font-size: 11px; 
+    text-align: center; 
+    margin-top: 50px;
+}
+
+.attribution a { 
+    color: hsl(228, 45%, 44%);
+    text-decoration: none;
+}
+
+@media (max-width: 1000px) {
+    .item-2 {
+        display: flex;
+        flex-flow: column wrap;
+    }
+
+    .item-2-1 {
+        border-bottom-left-radius: 0px;
+    }
+
+    .item-2-2 {
+        border-bottom-left-radius: 10px;
+    }
+
+}
+
+@media(max-width: 700px) {
+    body {
+        padding: 10% 18%;
+    }
+}
